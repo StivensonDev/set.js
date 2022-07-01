@@ -1,16 +1,8 @@
-const nombreFamilia = [
-    {papa: "Carmelo",
-     mama: "Olfa",
-     hijo: "Roller"   
-    }
-]
+const nombreFamilia = new Set ([
+    "Carmelo", "Olfa", "Roller"    
+])
 
-const miSet = new Set()
-miSet.add("roller");
+nombreFamilia.add("Roller")
+nombreFamilia.add("JavaScript")
 
-const miSet2 = new Set();
-miSet2.add("JavaScript");
-
-console.log(nombreFamilia);
-console.log(miSet);
-console.log(miSet2);
+console.log(nombreFamilia)
